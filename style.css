@@ -24,18 +24,20 @@ main {
 }
 
 h1 {
-animation-duration: 1000ms;
-animation-name: blink;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-duration: 1000ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
 @keyframes blink {
-from {
-   opacity: 1;
-}
-to {
-   opacity: 0.25;
-}
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0.25;
+  }
 }
 
 h2 {
@@ -52,7 +54,7 @@ h3 {
 p {
   font-size: 16.25px;
   text-align: justify;
-  
+
 }
 
 footer {
@@ -142,6 +144,7 @@ aside {
 }
 
 @media screen and (max-width: 1000px) {
+
   #content,
   aside {
     width: 100%;
@@ -149,11 +152,8 @@ aside {
   }
 }
 
-.profpic img{
-    border-radius: 50%;
-  }
+.profpic img {}
 
-footer p{
+footer p {
   text-align: center;
 }
-
